@@ -41,10 +41,10 @@ function averageDiameter(planetsArray){
     for (p of planetsArray){
         average += p.diameter;
     }
-    return "Average Diameter: " + average / 8;
+    return average / 8;
 }
 
-console.log(averageDiameter(planetsArray));
+console.log("Average Diameter: " + averageDiameter(planetsArray));
 
 let index = 0;
 
