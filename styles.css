@@ -1,6 +1,5 @@
 
 #PlanetCircle {
     border-radius: 50%;
-    background: red;
     transition: all 200ms;
   }
