@@ -32,7 +32,7 @@ planetsArray.push(planet6);
 planetsArray.push(planet7);
 planetsArray.push(planet8);
 
-for (p of planetsArray){
+for (let p of planetsArray){
     console.log(p.name);
 }
 
