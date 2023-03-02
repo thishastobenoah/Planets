@@ -38,7 +38,7 @@ for (let p of planetsArray){
 
 function averageDiameter(planetsArray){
     let average = 0;
-    for (p of planetsArray){
+    for (let p of planetsArray){
         average += p.diameter;
     }
     return average / 8;
